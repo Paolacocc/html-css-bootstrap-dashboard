@@ -37,28 +37,34 @@
             <!-- bootstrpheader -->
             <nav class="navbar">
                 <div class="container-fluid">
-                  <a class="navbar-brand">
-                    <img class="ms_logo-sm d-lg-none" src="img /mobile-logo.png" alt="">
-                    <img class="ms_logo-lg d-none d-lg-block" src="img /logo.svg" alt="">
-                  </a>
+                    <a class="navbar-brand">
+                        <img class="ms_logo-sm d-lg-none" src="img /mobile-logo.png" alt="">
+                        <img class="ms_logo-lg d-none d-lg-block" src="img /logo.svg" alt="">
+                    </a>
 
-                  <form class="d-flex flex-grow-1" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  </form>
+                    <form class="d-flex flex-grow-1" role="search">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Prova a cercare Lezioni di Lavarel"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </form>
 
-                  <div class="ms_header-icons d-none d-lg-block p-2">
-                    <i class="fa-solid fa-list pl-2"></i>
-                    <i class="fa-solid fa-circle-question pl-2"></i>
-                    <i class="fa-solid fa-ellipsis-vertical pl-2"></i>
-                  </div>
-                  <div class="ms_header-icons-orange p-2">
-                    <i class="fa-solid fa-bell"></i>
-                  </div>
+                    <div class="ms_header-icons d-none d-lg-block p-2">
+                        <i class="fa-solid fa-list pl-2"></i>
+                        <i class="fa-solid fa-circle-question pl-2"></i>
+                        <i class="fa-solid fa-ellipsis-vertical pl-2"></i>
+                    </div>
+                    <div class="ms_header-icons-orange p-2">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
 
                 </div>
-              </nav>
+            </nav>
 
-            <!-- /bootstrpheader -->
+            <!-- /bootstrapheader -->
 
         </header>
         <!-- /header -->
@@ -67,29 +73,67 @@
         <main class="ms_main d-flex">
 
             <!-- sidebar -->
-            <div class="ms_sidebar">
+            <div class="ms_sidebar pt-3">
 
+                <div class="container">
+                    
+                        
+                       
+                    <ul class="h-100">
+                        <li class="d-flex pb-2">
+                            <a href="">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <h6 class="d-none d-lg-block">home</h6>
+                        </li>
+                        <li class="d-flex pb-2">
+                            <a href="">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </a>
+                            <h6 class="d-none d-lg-block">home</h6>
+                        </li>
+                        <li class="d-flex pb-2">
+                            <a href="">
+                                <i class="fa-solid fa-signal"></i>
+                            </a>
+                            <h6 class="d-none d-lg-block">home</h6>
+                        </li>
+                        <li class="d-flex ms_admin">
+                            <a href="">
+                                <i class="fa-solid fa-gear"></i>
+                            </a>
+                            <h6 class="d-none d-lg-block">Admin</h6>
+                        </li>
+                    </ul>
+                        
+                    
+                </div>
             </div>
             <!-- /sidebar -->
 
             <!-- content -->
-            <div class="ms_content">
+            <div class="ms_content overflow-y-auto">
                 <div class="ms_banner">
                     <div class="container">
                         <div class="row p-2 d-flex flex-lg-row-reverse">
                             <div class="col-12 col-md-4">
-                                <div class="ms_card">
-                                    1
+                                <div class="ms_card d-flex ">
+                                    <p>Nuovo studente</p>
+                        
+                                        <i class="fa-regular fa-square-plus ms_x"></i>
+                                
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
                                 <div class="ms_card">
-                                    2
+                                    <h2>Boolean</h2>
+                                    <span class="badge rounded-pill --bs-primary-text">Piano blaze</span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
                                 <div class="ms_card">
-                                    3
+                                    <p>Studenti online negli ultimi 30 minuti</p>
+                                    <h5>100</h5>
                                 </div>
                             </div>
 
@@ -97,7 +141,7 @@
                     </div>
 
                 </div>
-           
+
                 <div class="container">
 
                     <div class="row g-3 mt-4">
