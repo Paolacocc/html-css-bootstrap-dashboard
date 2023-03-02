@@ -75,11 +75,11 @@
             <!-- sidebar -->
             <div class="ms_sidebar pt-3">
 
-                <div class="container">
+                <div class="container h-100 d-flex flex-column justify-content-between align-items-center">
                     
                         
                        
-                    <ul class="h-100">
+                    <ul>
                         <li class="d-flex pb-2">
                             <a href="">
                                 <i class="fa-solid fa-house"></i>
@@ -98,7 +98,11 @@
                             </a>
                             <h6 class="d-none d-lg-block">home</h6>
                         </li>
-                        <li class="d-flex ms_admin">
+                        
+                    </ul>
+
+                    <ul>
+                        <li class="d-flex ms_admin align-self-">
                             <a href="">
                                 <i class="fa-solid fa-gear"></i>
                             </a>
@@ -115,22 +119,34 @@
             <div class="ms_content overflow-y-auto">
                 <div class="ms_banner">
                     <div class="container">
-                        <div class="row p-2 d-flex flex-lg-row-reverse">
-                            <div class="col-12 col-md-4">
-                                <div class="ms_card d-flex ">
+                        <div class="row p-2 d-flex">
+                            <div class="col-12 col-md-4 col-lg-3 mb-3 order-md-last">
+                                <div class="ms_card d-flex align-items-end ">
                                     <p>Nuovo studente</p>
                         
-                                        <i class="fa-regular fa-square-plus ms_x"></i>
+                                        <i class="fa-regular fa-square-plus ms_x ml-3"></i>
                                 
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 col-lg-6 mb-3">
                                 <div class="ms_card">
-                                    <h2>Boolean</h2>
-                                    <span class="badge rounded-pill --bs-primary-text">Piano blaze</span>
+                                    <h2 class="d-inline">Boolean</h2>
+
+                                    <button type="button" class="badge rounded-pill btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Piano blaze</button>
+                                    <div>
+                                        <button type="button" class="badge rounded-pill btn btn-primary active d-inline" data-bs-toggle="button" aria-pressed="true">3 apps</button>
+
+                                        <button type="button" class="badge rounded-pill btn btn-primary active d-inline" data-bs-toggle="button" aria-pressed="true">+</button>
+
+                                        <button type="button" class="badge rounded-pill btn btn-primary active d-none d-lg-block d-inline" data-bs-toggle="button" aria-pressed="true">Boolean mobile app</button>
+
+                                        <button type="button" class="badge rounded-pill btn btn-primary active d-none d-lg-block d-inline" data-bs-toggle="button" aria-pressed="true">Boolean web app</button>
+
+                                        <button type="button" class="badge rounded-pill btn btn-primary active d-none d-lg-block d-inline" data-bs-toggle="button" aria-pressed="true">Boolean web app</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 col-lg-3 mb-3">
                                 <div class="ms_card">
                                     <p>Studenti online negli ultimi 30 minuti</p>
                                     <h5>100</h5>
@@ -145,14 +161,164 @@
                 <div class="container">
 
                     <div class="row g-3 mt-4">
-                        <div class="col-12 col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-                            perferendis officia ducimus commodi dolores? Voluptas nisi, velit, dolores ducimus soluta
-                            quasi iusto repellat doloremque vel ullam et incidunt ut cupiditate?</div>
-                        <div class="col-12 col-lg-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-                            perferendis officia ducimus commodi dolores? Voluptas nisi, velit, dolores ducimus soluta
-                            quasi iusto repellat doloremque vel ullam et incidunt ut cupiditate?</div>
-                    </div>
-                </div>
+                        <div class="col-12 col-lg-8">
+
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                  Prossime classi
+                                </div>
+                                <div class="card-body">
+                                    <!-- table -->
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th colspan="3">Nome</th>
+                                            <th>Data inizio</th>
+                                            <th>ROI</th>
+                                            <th>Stato</th>
+                                            <th>azioni</th>
+
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th colspan="3" scope="row">Classe 75</th>
+                                            <td></td>
+                                            <td>7</td>
+                                            <td></td>
+                                            <td>classe 79</td>
+
+                                            
+                                          </tr>
+                                          <tr>
+                                            <th colspan="3" scope="row">classe 76</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                            <td>classe 79</td>
+
+                                          </tr>
+                                          <tr>
+                                            <th colspan="3" scope="row">classe 77</th>
+                                            <td>Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>@twitter</td>
+                                            <td>classe 79</td>
+
+
+                                          </tr>
+                                          <tr>
+                                            <th colspan="3" scope="row">classe 78</th>
+                                            <td>Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>@twitter</td>
+                                            <td>classe 79</td>
+
+
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <!-- /table -->
+
+                                    
+                                    
+                                </div>
+                            </div>
+                        
+
+                            <div class="card">
+                                <div class="card-header">
+                                  F.A.Q.
+                                </div>
+                                <div class="card-body">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Accordion Item #1
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Accordion Item #2
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Accordion Item #3
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+
+                            
+                        <div class="col-12 col-lg-4">
+
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                  To do
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Default checkbox
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                          Checked checkbox
+                                        </label>
+                                      </div>
+                                 
+                                  
+                                </div>
+                              </div>
+
+                              <div class="card" >
+                                <img src="img /stats.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a>
+                                </div>
+                              </div>
+                        </div>
+                
 
             </div>
             <!-- /content -->
@@ -164,7 +330,7 @@
 
     </div>
     <!-- /wrapper -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

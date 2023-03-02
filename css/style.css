@@ -52,17 +52,13 @@ li h6 {
 }
 /* sidebar */
 .ms_sidebar {
-   background-image: url(../img/sidebar-bg.png);
+   background-image: url(../img);
    background-color: #051E34;
     width: 80px;
     height: 100%;
     
 }
 
-.ms_admin i {
-    align-items: flex-end;
-    color: red;
-}
 @media screen and (min-width: 992px) {
     .ms_sidebar {
         width: 200px
@@ -76,12 +72,14 @@ li h6 {
 }
 .ms_x {
     font-size: 3rem;
+    margin-left: 2rem;
+    font-weight: 100;
 }
 
 
 /* content */
 .ms_content {
-    width: calc(100% - var(--side-bar) );
+    width: calc(100% - 80px );
     height: 100%;
      /* debug */
     background-color: lightskyblue;
