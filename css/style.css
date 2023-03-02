@@ -1,0 +1,69 @@
+
+/* RESET */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+/* COMMON */
+.ms_wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HEADER */
+.ms_header {
+    
+}
+.ms_logo-sm {
+    width: 50px;
+    height: 50px;
+}
+.form-control {
+    background-color: lightgray;
+}
+/* MAIN */
+.ms_main {
+    height: calc(100% - 80px);
+}
+/* sidebar */
+.ms_sidebar {
+    width: 80px;
+    height: 100%;
+    /* debug */
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 992px) {
+    .ms_sidebar{
+        width: 200px;
+    }
+}
+
+/* banner */
+.ms_banner {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+}
+
+.ms_card {
+    /* debug */
+    height: 30px;
+    background-color: lightgreen;
+}
+
+/* content */
+.ms_content {
+    width: calc(100% - 80px );
+    height: 100%;
+     /* debug */
+    background-color: lightskyblue;
+}
+
+.col-12 {
+    /* debug */
+    /* height: 400px;
+    background-color: bisque; */
+}
