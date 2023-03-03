@@ -81,15 +81,10 @@ li h6 {
 .ms_content {
     width: calc(100% - 80px );
     height: 100%;
-     /* debug */
-    background-color: lightskyblue;
+   
 }
 
-.col-12 {
-    /* debug */
-    /* height: 400px;
-    background-color: bisque; */
-}
+
 td:last-child,
 th:last-child,
 td:nth-child(4),
