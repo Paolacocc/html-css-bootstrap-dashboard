@@ -90,3 +90,18 @@ li h6 {
     /* height: 400px;
     background-color: bisque; */
 }
+td:last-child,
+th:last-child,
+td:nth-child(4),
+th:nth-child(4) {
+    display: none;
+}
+
+@media screen and (min-width: 768px ) {
+td:last-child,
+th:last-child,
+td:nth-child(4),
+th:nth-child(4) {
+    display: table-cell ;
+}
+}
