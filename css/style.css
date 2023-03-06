@@ -41,6 +41,7 @@ li h6 {
 }
 .ms_header-icons {
     color: grey;
+    background-image: url(../img/);
 }
 .ms_header-icons-orange {
     color: orange;
@@ -84,6 +85,7 @@ li h6 {
    
 }
 
+/* table */
 
 td:last-child,
 th:last-child,
@@ -99,4 +101,12 @@ td:nth-child(4),
 th:nth-child(4) {
     display: table-cell ;
 }
+}
+
+.code-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #F26551;
+    color: white;
 }
